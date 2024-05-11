@@ -15,7 +15,7 @@ public:
     void DisplayChat();
 
 private:
-    map<std::string, User> users_;
+    map<string, User> users_;
     vector<pair<string, string>> messages_;
 };
 
